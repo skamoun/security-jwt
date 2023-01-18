@@ -41,11 +41,12 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<!-- JSON Web Token Support -->
 			<groupId>io.jsonwebtoken</groupId>
-			<artifactId>jjwt</artifactId>
-			<version>0.11.5</version>
+			<artifactId>jjwt-root</artifactId>
+			<version>0.11.1</version>
+			<type>pom</type>
 		</dependency>
+
 		<dependency>
 			<!-- JSON Web Token Support -->
 			<groupId>io.jsonwebtoken</groupId>
